@@ -10,6 +10,15 @@
             img{
                 max-width: 100%;
                 vertical-align: top;
+                /*display: none;*/
+            }
+            img#responsive {
+                display: none;
+            }
+            @media screen and (max-width: 768px){
+                img#responsive{
+                    display: block;
+                }
             }
         
         </style>
@@ -19,6 +28,7 @@
         <img src="ImagenesClase13GitGitHub/hero.jpg" alt="">
         <img src="ImagenesClase13GitGitHub/acustica.jpg" alt="">
         <img src="ImagenesClase13GitGitHub/Leon.jpg" alt="">
+        <img src="ImagenesClase13GitGitHub/invie-responsive.png" alt="" id="responsive">
 
     </body>
 </html>
